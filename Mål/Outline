@@ -1,8 +1,0 @@
-Model Aβ proteins moving on a 2D membrane grid with Monte Carlo. Proteins prefer being next to each other, and the DOPS side gives an extra energy gain.
-Theta = effective energy gain from being in the DOPS region}
-We could try different theta values and run the simulation. Then we compare some summary from the simulation, for example fraction of proteins on the DOPS side or amount of clustering, 
-with the corresponding result from the paper.
-ABC = keep theta values that give simulations close to the real data.
-MCMC = Move step-by-step through nearby theta values, which should make the search more efficient.
-End goal: estimate which DOPS interaction strength is most compatible with the paper (vilket theta), 
-then see how that affects local concentration/aggregation of Aβ.

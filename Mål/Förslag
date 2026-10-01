@@ -1,0 +1,4 @@
+Skulle det vara bättre att ex modellera hur många aminosyror i proteinet som är i kontakt med membranet, jämföra med artikeln och ta fram sannolikheten för kontakt? 
+Modellera det med ex binomial och sen använda ABC-MCMC för att få en posterior 
+för den sannolikheten och osäkerheten. Då har vi också ett tydligt xobs från artikeln, 
+typ 36 av 42 i kontakt, och kan simulera samma typ av observation själva.
